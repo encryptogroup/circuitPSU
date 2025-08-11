@@ -32,7 +32,7 @@ Also install BOOSTs necessary extensions.
 
 Then compile this codebase.
 
-``` bash build.sh```
+```bash build.sh```
 
 The resulting binary can be found in the build folder.
 
