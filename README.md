@@ -10,7 +10,7 @@ We use:
 - secure-join by Peceny et al. https://eprint.iacr.org/2024/547.pdf https://github.com/ladnir/secure-join
 
 ## Requirements
-
+Our tool is tested on Ubuntu 22.04.
 The following tools need to be installed prior to setup:
 
 - CMake 3.19 >=
@@ -35,6 +35,12 @@ Then compile this codebase.
 ```bash build.sh```
 
 The resulting binary can be found in the build folder.
+
+## Building with Docker
+
+A docker file is appended in the project. To build run:
+
+```docker build -t circuitPSU:1.0 . ```
 
 ## Usage
 
