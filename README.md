@@ -38,9 +38,15 @@ The resulting binary can be found in the build folder.
 
 ## Building with Docker
 
-A docker file is appended in the project. To build run:
+A docker file is appended in the project. To build, run:
 
-```docker build -t circuitPSU:1.0 . ```
+```docker build --network=host -t circuitpsu:1.0 . ```
+
+To execute, run:
+```
+docker run -it circuitpsu:1.0 /bin/bash
+```
+
 
 ## Usage
 
